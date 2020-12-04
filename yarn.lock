@@ -2872,6 +2872,13 @@ handle-thing@^2.0.0:
   resolved "https://registry.yarnpkg.com/handle-thing/-/handle-thing-2.0.1.tgz#857f79ce359580c340d43081cc648970d0bb234e"
   integrity sha512-9Qn4yBxelxoh2Ow62nP+Ka/kMnOXRi8BXnRaUwezLNhqelnN49xKz4F/dPP8OYLxLxq6JDtZb2i9XznUQbNPTg==
 
+handlebars-helper-repeat@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/handlebars-helper-repeat/-/handlebars-helper-repeat-2.0.0.tgz#8fb1c73e33a9546c3735e1e48651199da915c261"
+  integrity sha512-zUgnD9x5zvVAxwdV3ybcsQcc0s2Sqen18BPr6sene/evmSz+UcGaw1gSKcMxdFvjgRbekxuQwgGDlCzQSKZ69Q==
+  dependencies:
+    is-number "^5.0.0"
+
 handlebars-loader@^1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/handlebars-loader/-/handlebars-loader-1.7.1.tgz#07088f09d8a559344908f7c88c68c0ffdacc555d"
@@ -3331,6 +3338,11 @@ is-number@^3.0.0:
   integrity sha1-JP1iAaR4LPUFYcgQJ2r8fRLXEZU=
   dependencies:
     kind-of "^3.0.2"
+
+is-number@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/is-number/-/is-number-5.0.0.tgz#c393bc471e65de1a10a6abcb20efeb12d2b88166"
+  integrity sha512-LmVHHP5dTJwrwZg2Jjqp7K5jpvcnYvYD1LMpvGadMsMv5+WXoDSLBQ0+zmuBJmuZGh2J2K845ygj/YukxUnr4A==
 
 is-number@^7.0.0:
   version "7.0.0"

@@ -24,6 +24,7 @@ module.exports = (env) => {
         output: {
             filename: 'main.js',
             path: path.resolve(__dirname, 'dist'),
+            publicPath: '',
         },
         devServer: {
             contentBase: path.resolve(__dirname, 'dist'),
@@ -52,7 +53,10 @@ module.exports = (env) => {
                             loader: "handlebars-loader",
                             options: {
                                 partialDirs: path.resolve(__dirname, "./src/components"),
-
+                                runtime: path.resolve(__dirname, './src/handlebars.js'),
+                                precompileOptions: {
+                                    knownHelpersOnly: false,
+                                },
                             }
                         }
                     ],

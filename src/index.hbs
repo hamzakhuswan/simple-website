@@ -12,6 +12,13 @@
 <body>
     {{!-- Import hbs file  --}}
     {{!-- See  https://handlebarsjs.com/guide/ for more information--}}
-    {{> test/test }}
+    {{> navbar/navbar }}
+    {{> intro/intro }}
+
+    <div class="container">
+        {{#repeat 5}}
+            {{> product/product }}       
+        {{/repeat}}
+    </div>
 </body>
 </html>

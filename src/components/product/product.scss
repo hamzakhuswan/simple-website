@@ -1,0 +1,25 @@
+.product {
+    min-height: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    gap: 20px;
+
+    ul {
+        font-size: 14px;
+        margin: 0;
+        width: 30%;
+        li{
+            list-style: none;
+
+            &::before {
+                content: '';
+                display: inline-block;
+                height: 16px;
+                width: 16px;
+                margin-right: 4px;
+                background-image: url('../../assets/check.svg');
+            }
+        }
+    }
+}
