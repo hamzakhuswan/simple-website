@@ -10,8 +10,6 @@
     <title>Webpack template</title>
 </head>
 <body>
-    {{!-- Import hbs file  --}}
-    {{!-- See  https://handlebarsjs.com/guide/ for more information--}}
     {{> navbar/navbar }}
     {{> intro/intro }}
 
@@ -19,6 +17,10 @@
         {{#repeat 5}}
             {{> product/product }}       
         {{/repeat}}
+    </div>
+
+    <div style="text-align: center; margin: 50px; text-transform: capitalize;">
+        Simple website by <a href="https://hamzakhuswan.com">Hamza</a>
     </div>
 </body>
 </html>
