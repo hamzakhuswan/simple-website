@@ -1,9 +1,9 @@
 {
-  "name": "canadain-website",
+  "name": "simple-website",
   "version": "1.0.0",
   "description": "ready to use webpack template for splash pages",
   "main": "./src/index.js",
-  "repository": "https://github.com/hamzakhuswan/canadain-website",
+  "repository": "https://github.com/hamzakhuswan/simple-website",
   "author": "Hamza Khuswan",
   "license": "MIT",
   "private": true,
